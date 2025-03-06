@@ -18,7 +18,7 @@ async function getGreeting() {
     responseElement.classList.add("show");
 
     try {
-        const response = await fetch(`http://localhost:4000/api/greet?name=${encodeURIComponent(name)}`);
+        const response = await fetch(`http://localhost:4000/greet?name=${encodeURIComponent(name)}`);
 
         if (!response.ok) {
             throw new Error("Server error. Please try again.");

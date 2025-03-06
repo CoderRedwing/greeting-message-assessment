@@ -5,6 +5,6 @@ const app = express();
 app.use(cors()); 
 
 const greetRoute = require("./routes/greet");
-app.use("/api/greet", greetRoute);
+app.use("/greet", greetRoute);
 
 module.exports = app;
