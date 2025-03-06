@@ -1,23 +1,24 @@
 # Greeting App
 
-A simple web application that takes a user's name as input and returns a personalized greeting message. 
+A simple web application that takes a user's name as input and returns a personalized greeting message.
 
 ## 🛠️ Backend Setup
+
 1. Navigate to the `api` directory:
    ```sh
    cd api
    ```
-3. Start the server:
+2. Start the server:
    ```sh
    npm start
    ```
-4. Test the API:
+3. Test the API:
    ```sh
-   curl http://localhost:4000/api/greet?name=Ajitesh
+   curl http://localhost:4000/greet?name=Ajitesh
    ```
 
-
 ## 🎨 Frontend Setup
+
 1. Navigate to the `ui` directory:
    ```sh
    cd ui
@@ -25,7 +26,8 @@ A simple web application that takes a user's name as input and returns a persona
 2. Open `index.html` in a browser to test locally.
 
 ## 📜 API Endpoint
-- **GET /api/greet?name=YourName**
+
+- **GET /greet?name=YourName**
 - **Example Response**:
   ```json
   {
@@ -40,9 +42,10 @@ A simple web application that takes a user's name as input and returns a persona
   ```
 
 ## 🎯 Features
+
 - Simple user input with instant greeting response.
 - Input field clears after response.
 
 ## 👨‍💻 Author
-**Ajitesh**
 
+**Ajitesh**
